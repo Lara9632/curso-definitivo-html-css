@@ -1,33 +1,25 @@
 body {
-<<<<<<< HEAD
-=======
     padding: 0px;
->>>>>>> Header
     color: #000000;
     text-align: center;
     font-family: "Arial";
 }
 #container {
     width: 70%;
-<<<<<<< HEAD
     padding: 1em;
-=======
     padding: 0;
->>>>>>> Header
     text-align: left;
     border: 1px solid #812299;
     margin: 0 auto;
 }
 #container h1 {
     font-size: 20px;
-<<<<<<< HEAD
     text-align: center;
 }
 #Header {
     font-size: 20px;
     text-align: center;
     color: orange;
-=======
     text-align: left;
 }
 #Header {
@@ -48,5 +40,4 @@ body {
 #post {
     padding: 1em;
     padding-left: 5px;
->>>>>>> Header
 }
