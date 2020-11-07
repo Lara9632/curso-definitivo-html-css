@@ -3,3 +3,19 @@ body {
     text-align: center;
     font-family: "Arial";
 }
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #812299;
+    margin: 0 auto;
+}
+#container h1 {
+    font-size: 20px;
+    text-align: center;
+}
+#Header {
+    font-size: 20px;
+    text-align: center;
+    color: firebrick;
+}
