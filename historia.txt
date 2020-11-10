@@ -21,6 +21,10 @@ Experimento 1..
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 
 Experimento 2..
 >>>>>>> eba9dc0 (Experimento 2)
+=======
+Experimento 2..
+>>>>>>> f3eb089 (Experimento 2)
