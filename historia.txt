@@ -18,3 +18,9 @@ master 2
 Iniciamos experimento
 
 Experimento 1..
+<<<<<<< HEAD
+=======
+
+
+Experimento 2..
+>>>>>>> eba9dc0 (Experimento 2)
