@@ -19,25 +19,44 @@ nav {
   font-size: 20px;
   text-align: center;
 }
-#Header {
+.header {
   background: #88f;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
   font-weight: bold;
   margin: 0;
   padding: 0.5em 0 0.5em 0.5em;
-  text-align: left;
   font-size: 20px;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
-#Header #logo {
+.header:last-child {
+  align-content: end;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.header__tittle {
+  display: inline;
+  padding-left: 2px;
+}
+.header-nav-menu {
+  display: inline;
+  padding-right: 8px;
+}
+#nav-logo__tagline {
+  text-align: left;
+  font-size: 22px;
+}
+#logo {
   width: 20px;
   vertical-align: middle;
 }
-#Header #tagline {
+#tagline {
   display: inline-block;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 0.5em;
   font-weight: normal;
   font-size: 0.8em;
+  font-size: 14px;
 }
 .main-nav {
   display: inline;
@@ -48,18 +67,16 @@ nav {
 }
 .main-nav__item a {
   color: white;
-  padding: 5px;
-  border-radius: 2px;
+  padding: 0 2px;
+  padding-left: 5px;
+  border-left: solid 1px white;
   text-decoration: none;
 }
 .main-nav__item a:hover {
-  color: #333;
+  color: #000;
 }
 .main-nav__item a:active {
   color: #4ac8ec;
-}
-.main-nav__item a::before {
-  content: "  | ";
 }
 #post {
   padding: 1em;
@@ -86,4 +103,7 @@ nav {
   text-align: center;
   margin-top: -2em;
   font-weight: 800;
+}
+.lorem {
+  padding-bottom: 1em;
 }
