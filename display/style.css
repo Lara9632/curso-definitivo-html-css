@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #3a96ff;
+  --h1-size: 40px;
+  --font: 1.8rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+}
+header {
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--primary-color);
+}
+main {
+  width: 100vw;
+  height: 70vh;
+  font-size: var(--font);
+}
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+}
+h1 {
+  font-size: var(--h1-size);
+  color: var(--primary-color);
+}
+footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--primary-color);
+}
