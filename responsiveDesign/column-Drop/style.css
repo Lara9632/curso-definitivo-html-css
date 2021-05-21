@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* para usar rem se pone esto..  */
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+  width: 100%;
+  height: 150px;
+}
+.c1 {
+  background-color: #e91b52;
+}
+.c2 {
+  background-color: #f75990;
+}
+.c3 {
+  background-color: #fff685;
+}
+.c4 {
+  background-color: #00ddff;
+}
+.c5 {
+  background-color: #0049b7;
+}
+
+@media (min-width: 600px) {
+  .c1 {
+    width: 25%;
+    order: 1;
+  }
+  .c2 {
+    width: 75%;
+    order: 2;
+  }
+  .c3 {
+    width: 100%;
+    order: 3;
+  }
+  .c4 {
+    width: 100%;
+    order: 4;
+  }
+  .c5 {
+    width: 100%;
+    order: 5;
+  }
+}
+
+@media (min-width: 800px) {
+  .c1 {
+    width: 30%;
+    order: 1; /*No es necesario ponerle el orden por que ya está en el media anterior y se respeta, si quieres poner otro órden si debes modificarlo */
+  }
+  .c2 {
+    width: 40%;
+  }
+  .c3 {
+    width: 30%;
+  }
+  .c4 {
+    width: 50%;
+  }
+  .c5 {
+    width: 50%;
+  }
+}

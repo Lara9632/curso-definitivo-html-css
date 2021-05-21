@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+/* para usar rem se pone esto..  */
 html {
   font-size: 62.5%;
   font-family: "Source Sans Pro", sans-serif;
@@ -33,17 +34,36 @@ body {
   background-color: #3aff6b;
 }
 .c4 {
-    background-color: #3a96ff;
+  background-color: #3a96ff;
 }
 .c5 {
-    background-color: #d13aff;
+  background-color: #d13aff;
 }
-@media (min-width: 600px){
-    .c1 {
-        width: 25%;
-        order: 1;
-    }
-    .c2 {
-        
-    }
-}
+
+/* @media (min-width: 600px) {
+  .c2,
+  .c3,
+  .c4 {
+    width: 50%;
+  }
+} */
+/* @media (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .c1 {
+    width: 60%;
+  }
+  .c2 {
+    width: 40%;
+  }
+  .c3,
+  .c4 {
+    width: 33%;
+  }
+  .c5 {
+    width: 34%;
+  }
+} */
